@@ -9,11 +9,17 @@ the staging area is a temporary area where files are stored before they are comm
 ```
 ### git reset . - remove all files from staging area
 
+</br>
+
 ### git commit -m "message" - commit all files in staging area
 ### git push - push all commits to remote repository
 
+</br>
+
 ### git remote - show remote repository
 ### git remote add origin <url> - add remote repository, origin is the name of the remote repository
+
+</br>
 
 ### git clone <url> - clone remote repository
 
@@ -21,7 +27,7 @@ the staging area is a temporary area where files are stored before they are comm
 
 ### git log - show all commits
 
-
+</br>
 
 ### git branch - show all branches
 ### git branch <branchname> - create a new branch
@@ -31,3 +37,10 @@ the staging area is a temporary area where files are stored before they are comm
 ### git branch -D <branchname> - force delete a branch
 ### ``` git checkout -``` - switch to the previous branch
 
+</br>
+
+### git merge <branchname> - merge a branch to the current branch
+### git merge --abort - abort a merge
+``` 
+after merge, you need to commit the merge
+```
