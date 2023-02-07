@@ -9,5 +9,17 @@ the staging area is a temporary area where files are stored before they are comm
 
 # git reset . - remove all files from staging area
 
+# git commit -m "message" - commit all files in staging area
+# git push - push all commits to remote repository
+
+# git remote - show remote repository
+# git remote add origin <url> - add remote repository, origin is the name of the remote repository
+
+# git clone <url> - clone remote repository
+
+# git pull - pull all commits from remote repository
+
+# git log - show all commits
+
 
 
