@@ -29,5 +29,5 @@ the staging area is a temporary area where files are stored before they are comm
 ### git checkout -b <branchname> - create and switch to a branch
 ### git branch -d <branchname> - delete a branch
 ### git branch -D <branchname> - force delete a branch
-
+### ``` git checkout -``` - switch to the previous branch
 
