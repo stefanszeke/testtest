@@ -28,3 +28,29 @@ A negative lookbehind (?<!...) asserts that the pattern inside the parentheses m
 For example, (?<!19)\d{2} matches a two-digit number that is not preceded by "19".
 
 Note that lookbehind assertions are not supported in all regex implementations and their use may be limited by the maximum length of the pattern they can handle.
+
+### other regex stuff:
+    Matching specific characters:
+    [abc] matches any character that is either a, b, or c.
+
+    Grouping and alternation:
+    (dog|cat) matches either "dog" or "cat".
+
+    Matching digits:
+    \d matches any digit, equivalent to [0-9].
+
+    Matching whitespaces:
+    \s matches any whitespace character, including spaces, tabs, and line breaks.
+
+    Matching word boundaries:
+    \b matches a word boundary, such as a space or the edge of the string.
+
+    Matching repetitions:
+    a{2,4} matches between 2 and 4 consecutive "a" characters.
+
+    Matching optional items:
+    colou?r matches either "color" or "colour".
+
+    Matching the start and end of a line:
+    ^A matches lines that start with an "A".
+    A$ matches lines that end with an "A".5
